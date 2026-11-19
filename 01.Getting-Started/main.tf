@@ -17,7 +17,7 @@ resource "docker_image" "nginx" {
   name = "nginxdemos/hello"
 }
 
-resource "docker_container" "name" {
+resource "docker_container" "AStoyanoff" {
   name  = "nginx_hello"
   image = docker_image.nginx.image_id
   ports {
